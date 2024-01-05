@@ -43,22 +43,23 @@ function addGamesToPage(games) {
         // TIP: if your images are not displaying, make sure there is space
         // between the end of the src attribute and the end of the tag ("/>")
         gameCard.innerHTML = `
-            <h3>${games[i].name}</h3>
-            <p>Description: ${games[i].description}</p>
-            <p>Pledged: $${games[i].pledged}</p>
-            <p>Goal: $${games[i].goal}</p>
-            <p>Backers: ${games[i].backers}</p>
-            <img src="${games[i].img}" alt="${games[i].name}" />
+        <div class = "game-card">
+        <img class = "game-img" src="${games[i].img}" alt="${games[i].name}" />
+        <h3>${games[i].name}</h3>
+        <p>Description: ${games[i].description}</p>
+        <p>Backers: ${games[i].backers}</p>
+        </div>
         `;
-
+  
         // append the game to the games-container
         gamesContainer.appendChild(gameCard);
     }
 }
 
+
 // call the function we just defined using the correct variable
 // later, we'll call this function using a different list of games
-addGamesToPage(sampleGames);
+addGamesToPage(GAMES_JSON);
 
 /*************************************************************************************
  * Challenge 4: Create the summary statistics at the top of the page displaying the
