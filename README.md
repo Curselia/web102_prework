@@ -15,28 +15,23 @@ The following **required** functionality is completed:
 * [X] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
 * [X] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
-The following **optional** features are implemented:
-
-* [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/Y732Wgl' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with LICEcap 
-<!-- Recommended tools:
-[ScreenToGif](https://www.screentogif.com/) for Windows
+GIF created with LiceCap 
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I struggled the most with the last challenge. The concpet of destructuirng and spread really messed with my head. I took a little break from it and when I came back it made much more sense, although I still feel like I'm a bit shaky.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Samarra Davis]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
