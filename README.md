@@ -31,7 +31,7 @@ I struggled the most with the last challenge. The concpet of destructuirng and s
 
 ## License
 
-    Copyright [2023] [Samarra Davis]
+    Copyright 2023 Samarra Davis
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
